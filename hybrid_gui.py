@@ -406,7 +406,7 @@ if __name__ == '__main__':
                         default=None)
     args = parser.parse_args()
     root = tk.Tk()
-    root.title('CSCI 497P - Hybrid Images')
+    root.title('CS 1053A - Hybrid Images')
     w, h = root.winfo_screenwidth(), root.winfo_screenheight() - 50
     root.geometry('{}x{}+0+0'.format(w, h))
     root.grid_columnconfigure(0, weight=1)

@@ -97,7 +97,7 @@ if __name__ == "__main__":
     parser.add_argument('--levels', '-l', help='Levels of laplacian pyramid', type=int, default=5)
     args = parser.parse_args()
 
-    root.title('CSCI 497P P1 - Laplacian Image Editing')
+    root.title('CS 1053A P1 - Laplacian Image Editing')
     w, h = root.winfo_screenwidth(), root.winfo_screenheight() - 50
     root.geometry('{}x{}+0+0'.format(w, h))
     root.grid_columnconfigure(0, weight=1)
